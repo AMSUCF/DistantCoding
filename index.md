@@ -1,11 +1,5 @@
 # Distant Coding for the Digital Humanities
 
-**MLA 2026 Session 213**
-
-Friday, 9 January 2026
-10:15 AM - 11:30 AM
-MTCC - 602B
-
 **Presenters:**
 Anastasia Salter, University of Central Florida
 Lai-Tze Fan, University of Waterloo
@@ -28,7 +22,7 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 
 ## Demos and Examples
 
-### Educational Applications
+### Agentic Applications
 
 - **[Perplexity.AI's Comet](https://www.perplexity.ai/help-center/en/articles/12590157-what-is-education-pro?q=ed)** - Bibtex citations, markdown archives, and Canvas updates for education
 

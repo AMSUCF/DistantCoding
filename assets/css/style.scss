@@ -1,0 +1,720 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ============================================
+   ELECTRONIC LITERATURE ORGANIZATION AESTHETICS
+   ============================================ */
+
+:root {
+  --elo-red: #cc0000;
+  --bright-red: #ff0000;
+  --dark-red: #990000;
+  --accent-red: #ff3333;
+  --light-red: #ff6666;
+  --dark-bg: #000000;
+  --darker-bg: #0a0a0a;
+  --light-text: #ffffff;
+  --soft-text: #e0e0e0;
+}
+
+/* ============================================
+   LIGHT MODE - HIGH CONTRAST FOR PROJECTING
+   ============================================ */
+
+[data-theme="light"] {
+  --elo-red: #cc0000;
+  --bright-red: #ff0000;
+  --dark-red: #990000;
+  --accent-red: #ff3333;
+  --light-red: #ff6666;
+  --dark-bg: #ffffff;
+  --darker-bg: #f5f5f5;
+  --light-text: #000000;
+  --soft-text: #1a1a1a;
+}
+
+[data-theme="light"] body {
+  background: linear-gradient(180deg, #ffffff 0%, #f5f5f5 100%);
+  color: #000000 !important;
+}
+
+[data-theme="light"] .page-header {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 50%, #e8e8e8 100%) !important;
+  border-bottom: 3px solid #cc0000;
+  box-shadow: 0 4px 20px rgba(204, 0, 0, 0.3);
+}
+
+[data-theme="light"] .page-header::before {
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(204, 0, 0, 0.1) 2px, rgba(204, 0, 0, 0.1) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(204, 0, 0, 0.1) 2px, rgba(204, 0, 0, 0.1) 4px);
+}
+
+[data-theme="light"] .page-header::after {
+  background: radial-gradient(circle, rgba(204, 0, 0, 0.15) 0%, transparent 70%);
+}
+
+[data-theme="light"] .project-name {
+  color: #000000 !important;
+  text-shadow:
+    0 0 3px #cc0000,
+    0 0 6px #ff0000,
+    2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+[data-theme="light"] .project-tagline {
+  color: #1a1a1a !important;
+  text-shadow:
+    0 0 2px #cc0000,
+    1px 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+[data-theme="light"] .main-content {
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid rgba(204, 0, 0, 0.5);
+  box-shadow:
+    0 0 20px rgba(204, 0, 0, 0.2),
+    inset 0 0 20px rgba(0, 0, 0, 0.05);
+  color: #000000 !important;
+}
+
+[data-theme="light"] .main-content h1,
+[data-theme="light"] .main-content h2,
+[data-theme="light"] .main-content h3,
+[data-theme="light"] .main-content h4,
+[data-theme="light"] .main-content h5,
+[data-theme="light"] .main-content h6 {
+  color: #990000 !important;
+  text-shadow: 0 0 2px rgba(204, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(204, 0, 0, 0.4);
+}
+
+[data-theme="light"] .main-content h3 {
+  color: #cc0000 !important;
+  text-shadow: 0 0 2px rgba(255, 51, 51, 0.3);
+  border-bottom: 2px solid rgba(255, 51, 51, 0.4);
+}
+
+[data-theme="light"] .main-content a {
+  color: #1a1a1a !important;
+  text-shadow: none;
+  border-bottom: 2px solid #cc0000;
+  font-weight: 600;
+}
+
+[data-theme="light"] .main-content a:hover {
+  color: #cc0000 !important;
+  text-shadow: none;
+  border-bottom: 2px solid #ff0000;
+  background: rgba(204, 0, 0, 0.1);
+}
+
+[data-theme="light"] .main-content li {
+  color: #1a1a1a;
+}
+
+[data-theme="light"] .main-content li::before {
+  color: #cc0000;
+  text-shadow: 0 0 2px rgba(204, 0, 0, 0.3);
+}
+
+[data-theme="light"] .main-content hr {
+  background: linear-gradient(90deg,
+    transparent 0%,
+    #cc0000 20%,
+    #ff0000 50%,
+    #cc0000 80%,
+    transparent 100%);
+  height: 3px;
+  box-shadow: 0 0 5px rgba(204, 0, 0, 0.3);
+}
+
+[data-theme="light"] .main-content pre,
+[data-theme="light"] .main-content code {
+  background: #f5f5f5;
+  border: 2px solid #cc0000;
+  color: #1a1a1a;
+  box-shadow:
+    0 0 5px rgba(204, 0, 0, 0.2),
+    inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .main-content pre::before {
+  color: #cc0000;
+  text-shadow: 0 0 2px rgba(204, 0, 0, 0.3);
+}
+
+[data-theme="light"] .main-content blockquote {
+  background: rgba(204, 0, 0, 0.05);
+  border-left: 4px solid #cc0000;
+  color: #1a1a1a;
+  box-shadow:
+    0 0 5px rgba(204, 0, 0, 0.1),
+    inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .main-content p:first-of-type::after {
+  background: #000000;
+}
+
+[data-theme="light"] ::-webkit-scrollbar {
+  background: #f5f5f5;
+}
+
+[data-theme="light"] ::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border: 1px solid rgba(204, 0, 0, 0.3);
+}
+
+[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #cc0000, #ff0000);
+  box-shadow: 0 0 5px rgba(204, 0, 0, 0.3);
+}
+
+[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+  background: #ff0000;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+/* ============================================
+   ANIMATED NETWORK BACKGROUND
+   ============================================ */
+
+.page-header {
+  background: linear-gradient(135deg, var(--darker-bg) 0%, #1a0000 50%, var(--dark-bg) 100%) !important;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid var(--elo-red);
+  box-shadow: 0 4px 20px rgba(204, 0, 0, 0.4);
+}
+
+.page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(204, 0, 0, 0.05) 2px, rgba(204, 0, 0, 0.05) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(204, 0, 0, 0.05) 2px, rgba(204, 0, 0, 0.05) 4px);
+  animation: networkPulse 3s ease-in-out infinite;
+  z-index: 1;
+}
+
+.page-header::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(204, 0, 0, 0.15) 0%, transparent 70%);
+  animation: rotate 20s linear infinite;
+  z-index: 1;
+}
+
+@keyframes networkPulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Network nodes animation */
+.page-header .project-name,
+.page-header .project-tagline {
+  position: relative;
+  z-index: 10;
+}
+
+/* ============================================
+   MAIN HEADING - TERMINATOR STYLE
+   ============================================ */
+
+.project-name {
+  color: var(--light-text) !important;
+  text-shadow:
+    0 0 10px var(--elo-red),
+    0 0 20px var(--bright-red),
+    0 0 30px var(--dark-red),
+    0 0 40px var(--accent-red),
+    2px 2px 4px rgba(0, 0, 0, 0.8) !important;
+  font-weight: 900 !important;
+  letter-spacing: 2px;
+  animation: glowPulse 2s ease-in-out infinite alternate;
+  font-family: 'Courier New', monospace !important;
+  text-transform: uppercase;
+}
+
+@keyframes glowPulse {
+  from {
+    text-shadow:
+      0 0 10px var(--elo-red),
+      0 0 20px var(--bright-red),
+      0 0 30px var(--dark-red),
+      0 0 40px var(--accent-red),
+      2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  to {
+    text-shadow:
+      0 0 20px var(--elo-red),
+      0 0 30px var(--bright-red),
+      0 0 40px var(--accent-red),
+      0 0 50px var(--light-red),
+      0 0 60px var(--bright-red),
+      2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.project-tagline {
+  color: var(--soft-text) !important;
+  text-shadow:
+    0 0 5px var(--accent-red),
+    0 0 10px var(--elo-red),
+    1px 1px 2px rgba(0, 0, 0, 0.8) !important;
+  font-family: 'Courier New', monospace !important;
+  opacity: 0.95;
+  animation: scanline 8s linear infinite;
+}
+
+@keyframes scanline {
+  0%, 100% { opacity: 0.9; }
+  50% { opacity: 1; }
+}
+
+/* ============================================
+   BODY & CONTENT STYLING
+   ============================================ */
+
+body {
+  background: linear-gradient(180deg, var(--darker-bg) 0%, var(--dark-bg) 100%);
+  color: var(--soft-text) !important;
+  font-family: 'Courier New', monospace;
+}
+
+.main-content {
+  background: rgba(10, 10, 10, 0.75);
+  border: 1px solid rgba(204, 0, 0, 0.4);
+  box-shadow:
+    0 0 20px rgba(204, 0, 0, 0.3),
+    inset 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 2rem 4rem;
+  border-radius: 5px;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: var(--elo-red) !important;
+  text-shadow:
+    0 0 10px var(--elo-red),
+    0 0 20px rgba(204, 0, 0, 0.5);
+  font-family: 'Courier New', monospace;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(204, 0, 0, 0.3);
+  padding-bottom: 0.3em;
+  margin-top: 2rem;
+}
+
+.main-content h3 {
+  color: var(--accent-red) !important;
+  text-shadow:
+    0 0 8px var(--accent-red),
+    0 0 15px rgba(255, 51, 51, 0.5);
+  border-bottom: 1px solid rgba(255, 51, 51, 0.3);
+}
+
+/* ============================================
+   LINKS - HUD INTERFACE STYLE
+   ============================================ */
+
+.main-content a {
+  color: var(--light-text) !important;
+  text-shadow: 0 0 5px var(--accent-red);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--soft-text);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.main-content a:hover {
+  color: var(--elo-red) !important;
+  text-shadow:
+    0 0 10px var(--elo-red),
+    0 0 20px var(--bright-red);
+  border-bottom: 1px solid var(--elo-red);
+  background: rgba(204, 0, 0, 0.15);
+  padding: 0 4px;
+}
+
+.main-content a strong {
+  font-weight: 700;
+  color: inherit;
+}
+
+/* ============================================
+   LISTS - TERMINAL STYLE
+   ============================================ */
+
+.main-content ul,
+.main-content ol {
+  padding-left: 2em;
+}
+
+.main-content li {
+  margin-bottom: 0.8em;
+  position: relative;
+  color: var(--soft-text);
+}
+
+.main-content li::before {
+  content: "▸ ";
+  color: var(--elo-red);
+  position: absolute;
+  left: -1.2em;
+  text-shadow: 0 0 5px var(--elo-red);
+}
+
+.main-content ul li::before {
+  content: "▸ ";
+}
+
+/* ============================================
+   HORIZONTAL RULES - SCANLINES
+   ============================================ */
+
+.main-content hr {
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--dark-red) 20%,
+    var(--elo-red) 50%,
+    var(--dark-red) 80%,
+    transparent 100%);
+  height: 2px;
+  border: none;
+  box-shadow: 0 0 10px var(--elo-red);
+  margin: 2em 0;
+  animation: scanlineMove 2s ease-in-out infinite;
+}
+
+@keyframes scanlineMove {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* ============================================
+   CODE BLOCKS - TERMINAL INTERFACE
+   ============================================ */
+
+.main-content pre,
+.main-content code {
+  background: var(--darker-bg);
+  border: 1px solid var(--elo-red);
+  color: var(--soft-text);
+  font-family: 'Courier New', monospace;
+  box-shadow:
+    0 0 10px rgba(204, 0, 0, 0.3),
+    inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-content pre {
+  padding: 1em;
+  overflow-x: auto;
+  position: relative;
+}
+
+.main-content pre::before {
+  content: "$ ";
+  color: var(--elo-red);
+  text-shadow: 0 0 5px var(--elo-red);
+}
+
+/* ============================================
+   BLOCKQUOTES - SYSTEM MESSAGES
+   ============================================ */
+
+.main-content blockquote {
+  background: rgba(204, 0, 0, 0.08);
+  border-left: 4px solid var(--elo-red);
+  color: var(--soft-text);
+  padding: 1em;
+  margin: 1em 0;
+  box-shadow:
+    0 0 10px rgba(204, 0, 0, 0.2),
+    inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding: 1rem 1.5rem;
+  }
+
+  .project-name {
+    font-size: 1.75rem !important;
+  }
+}
+
+/* ============================================
+   TERMINAL CURSOR EFFECT
+   ============================================ */
+
+.main-content p:first-of-type::after {
+  content: "";
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+  background: var(--light-text);
+  margin-left: 0.2em;
+  animation: blink 1s step-end infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* ============================================
+   NEURAL NETWORK DOTS DECORATION
+   ============================================ */
+
+.page-header::before {
+  background-image:
+    radial-gradient(circle at 20% 30%, var(--elo-red) 1px, transparent 1px),
+    radial-gradient(circle at 80% 40%, var(--bright-red) 1px, transparent 1px),
+    radial-gradient(circle at 40% 70%, var(--accent-red) 1px, transparent 1px),
+    radial-gradient(circle at 90% 80%, var(--light-red) 1px, transparent 1px),
+    radial-gradient(circle at 10% 90%, var(--dark-red) 1px, transparent 1px),
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(204, 0, 0, 0.05) 2px, rgba(204, 0, 0, 0.05) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(204, 0, 0, 0.05) 2px, rgba(204, 0, 0, 0.05) 4px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  animation: networkPulse 3s ease-in-out infinite, nodePulse 4s ease-in-out infinite;
+}
+
+@keyframes nodePulse {
+  0%, 100% {
+    background-position: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+  50% {
+    background-position: 5% 5%, -5% -5%, 3% -3%, -3% 3%, 2% -2%, 0% 0%, 0% 0%;
+  }
+}
+
+/* ============================================
+   GLITCH EFFECT ON HOVER
+   ============================================ */
+
+.main-content h1:hover,
+.main-content h2:hover {
+  animation: glitch 0.3s linear infinite;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+/* ============================================
+   THEME TOGGLE BUTTON
+   ============================================ */
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: var(--dark-red);
+  border: 2px solid var(--elo-red);
+  color: var(--light-text);
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 0 15px rgba(204, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.theme-toggle:hover {
+  background: var(--elo-red);
+  border-color: var(--bright-red);
+  box-shadow: 0 0 25px rgba(204, 0, 0, 0.7);
+  transform: translateY(-2px);
+}
+
+.theme-toggle:active {
+  transform: translateY(0);
+}
+
+[data-theme="light"] .theme-toggle {
+  background: #990000;
+  border: 2px solid #cc0000;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(204, 0, 0, 0.4);
+}
+
+[data-theme="light"] .theme-toggle:hover {
+  background: #cc0000;
+  border-color: #ff0000;
+  box-shadow: 0 0 15px rgba(204, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  .theme-toggle {
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+/* ============================================
+   SCROLLBAR STYLING
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: var(--darker-bg);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--darker-bg);
+  border: 1px solid rgba(204, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--dark-red), var(--elo-red));
+  border-radius: 6px;
+  box-shadow: 0 0 10px var(--elo-red);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--elo-red);
+  box-shadow: 0 0 20px var(--elo-red);
+}
+
+/* ============================================
+   ELO SPONSOR BANNER
+   ============================================ */
+
+.elo-sponsor {
+  text-align: center;
+  margin: 2em 0;
+  padding: 1.5em;
+  background: rgba(204, 0, 0, 0.15);
+  border: 2px solid var(--elo-red);
+  border-radius: 5px;
+  box-shadow:
+    0 0 20px rgba(204, 0, 0, 0.4),
+    inset 0 0 20px rgba(204, 0, 0, 0.1);
+  animation: sponsorPulse 3s ease-in-out infinite;
+  position: relative;
+  overflow: hidden;
+}
+
+.elo-sponsor::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(204, 0, 0, 0.1) 0%, transparent 70%);
+  animation: rotate 15s linear infinite;
+  z-index: 0;
+}
+
+.elo-sponsor a {
+  color: var(--elo-red) !important;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow:
+    0 0 10px var(--elo-red),
+    0 0 20px rgba(204, 0, 0, 0.5);
+  border: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.elo-sponsor a:hover {
+  color: var(--bright-red) !important;
+  text-shadow:
+    0 0 15px var(--bright-red),
+    0 0 30px var(--elo-red),
+    0 0 45px rgba(255, 0, 0, 0.7);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+@keyframes sponsorPulse {
+  0%, 100% {
+    box-shadow:
+      0 0 20px rgba(204, 0, 0, 0.4),
+      inset 0 0 20px rgba(204, 0, 0, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 30px rgba(204, 0, 0, 0.6),
+      inset 0 0 30px rgba(204, 0, 0, 0.2);
+  }
+}
+
+[data-theme="light"] .elo-sponsor {
+  background: rgba(204, 0, 0, 0.08);
+  border: 2px solid #cc0000;
+  box-shadow:
+    0 0 20px rgba(204, 0, 0, 0.3),
+    inset 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .elo-sponsor a {
+  color: #990000 !important;
+  text-shadow:
+    0 0 5px rgba(204, 0, 0, 0.5),
+    0 0 10px rgba(153, 0, 0, 0.3);
+}
+
+[data-theme="light"] .elo-sponsor a:hover {
+  color: #cc0000 !important;
+  text-shadow:
+    0 0 10px rgba(204, 0, 0, 0.7),
+    0 0 20px rgba(255, 0, 0, 0.5);
+}

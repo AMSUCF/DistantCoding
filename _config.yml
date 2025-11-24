@@ -1,0 +1,31 @@
+# Site settings
+title: "Distant Coding for the Digital Humanities"
+description: "MLA 2026 Session 213 | Friday, 9 January 2026 | 10:15 AM - 11:30 AM"
+author: "Anastasia Salter & Lai-Tze Fan"
+
+# Build settings
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Theme configuration
+github:
+  is_project_page: true
+  repository_name: "DistantCoding"
+  owner_name: "AMSUCF"
+
+# Display settings
+show_downloads: false
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude from processing
+exclude:
+  - README.md
+  - CLAUDE.md
+  - .git/
+  - .gitignore

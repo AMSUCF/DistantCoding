@@ -1,8 +1,8 @@
-# Distant Coding for the Digital Humanities
+# Distant Coding for the Digital Humanities at MLA 2026
 
 **Presenters:**
-Anastasia Salter, University of Central Florida
-Lai-Tze Fan, University of Waterloo
+- Anastasia Salter, University of Central Florida
+- Lai-Tze Fan, University of Waterloo
 
 <div class="elo-sponsor">
   <a href="https://eliterature.org/" target="_blank">Sponsored by the Electronic Literature Organization</a>

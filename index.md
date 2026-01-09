@@ -84,6 +84,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 
 - **[ChatGPT and Software Testing Education](https://dl.acm.org/doi/10.1007/978-3-032-12408-1_15)** - ACM research on AI in software testing pedagogy
 
+- **[Claude Code and What Comes Next](https://www.oneusefulthing.org/p/claude-code-and-what-comes-next)** - Ethan Mollick on the implications of agentic coding tools
+
 ---
 
 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">

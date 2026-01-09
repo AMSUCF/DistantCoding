@@ -1,3 +1,5 @@
+*Live transcript from the MLA session, edited by Claude. Errors might remain.*
+
 # AI Distant Coding Workshop
 ## MLA 2025
 

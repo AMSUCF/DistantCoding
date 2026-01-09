@@ -10,6 +10,8 @@
 
 ## Artifacts from MLA Presentation
 
+- **[Session Transcript](transcript.md)** - Full transcript of the MLA presentation
+
 - **[Mood-based MIDI soundscapes](https://anastasiasalter.net/MLAGameDemo/)** - Interactive musical experience generated during the session
 
 - **[LiveJournal nostalgia editor](http://anastasiasalter.net/MLADistantCodingDemo/)** - Retro-styled text editor created live at MLA

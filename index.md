@@ -32,6 +32,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 
 - **[Agentic AI in Education Site](https://anastasiasalter.net/ClaudeEducationalDemo/)** - Educational site and text game generated with Claude Code / Sonnet 4.5 ([process documentation](https://github.com/AMSUCF/ClaudeEducationalDemo/blob/claude/init-project-011CUdfAbtzA4zFUnqcy3TAE/PROCESS.md))
 
+- **[Getting Started with Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome)** - Anthropic's official guide to using Claude as a browser extension
+
 ### Tools and Platforms
 
 - **[Claude Code](https://www.claude.com/product/claude-code)** - Anthropic's official CLI for Claude AI
@@ -39,6 +41,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 - **[WordPress MCP Adapter](https://meowapps.com/ai-engine/)** - Model Context Protocol adapter for WordPress
 
 - **[Awesome Claude Skills](https://github.com/BehiSecc/awesome-claude-skills)** - Curated collection of Claude skills and capabilities
+
+- **[Google Antigravity](https://antigravity.google/)** - Google's experimental AI-powered creative coding environment
 
 ---
 
@@ -63,6 +67,10 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 - **[Everyone Should be Using Claude Code](https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code)** - Lenny's Newsletter on the transformative potential of Claude Code
 
 - **[Why Anthropic's MCP is a Big Deal](https://blog.bytebytego.com/p/why-anthropics-mcp-is-a-big-deal)** - ByteByteGo analysis of the Model Context Protocol
+
+- **[Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/)** - Wolfram's comprehensive benchmarking of large language models
+
+- **[Three Years from GPT-3 to Gemini](https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini)** - Ethan Mollick on the rapid evolution of AI capabilities
 
 ---
 

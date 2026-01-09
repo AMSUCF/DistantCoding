@@ -66,6 +66,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 
 - **[Why Anthropic's MCP is a Big Deal](https://blog.bytebytego.com/p/why-anthropics-mcp-is-a-big-deal)** - ByteByteGo analysis of the Model Context Protocol
 
+- **[Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/)** - Wolfram's comprehensive benchmarking of large language models
+
 ---
 
 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">

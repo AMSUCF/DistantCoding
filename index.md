@@ -8,6 +8,14 @@
   <a href="https://eliterature.org/" target="_blank">Sponsored by the Electronic Literature Organization</a>
 </div>
 
+## Artifacts from MLA Presentation
+
+- **[Mood-based MIDI soundscapes](https://anastasiasalter.net/MLAGameDemo/)** - Interactive musical experience generated during the session
+
+- **[LiveJournal nostalgia editor](http://anastasiasalter.net/MLADistantCodingDemo/)** - Retro-styled text editor created live at MLA
+
+---
+
 ## About This Session
 
 Scholars explore the relationship between generative AI and the future of digital humanities programming using agent-based tools. Participants will be introduced to a beginner-friendly method commonly referred to as "vibe coding," which emphasizes describing and solving problems through code rather than editing code directly, for tasks such as distant reading and digital humanities prototyping.

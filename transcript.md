@@ -157,7 +157,7 @@ Administratively, we will start to see changes when there are lowering enrollmen
 
 ---
 
-*Resources and additional materials are available at the website linked from the session abstract.*
+[← Back to Distant Coding for the Digital Humanities](index.md)
 
 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
   <span id="theme-label">Light Mode</span>

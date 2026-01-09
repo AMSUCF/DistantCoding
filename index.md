@@ -42,6 +42,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 
 - **[Awesome Claude Skills](https://github.com/BehiSecc/awesome-claude-skills)** - Curated collection of Claude skills and capabilities
 
+- **[Google Antigravity](https://antigravity.google/)** - Google's experimental AI-powered creative coding environment
+
 ---
 
 ## Further Reading

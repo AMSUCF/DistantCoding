@@ -68,6 +68,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 
 - **[Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/)** - Wolfram's comprehensive benchmarking of large language models
 
+- **[Three Years from GPT-3 to Gemini](https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini)** - Ethan Mollick on the rapid evolution of AI capabilities
+
 ---
 
 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">

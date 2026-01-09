@@ -8,6 +8,14 @@
   <a href="https://eliterature.org/" target="_blank">Sponsored by the Electronic Literature Organization</a>
 </div>
 
+## Artifacts from MLA Presentation
+
+- **[Mood-based MIDI soundscapes](https://anastasiasalter.net/MLAGameDemo/)** - Interactive musical experience generated during the session
+
+- **[LiveJournal nostalgia editor](http://anastasiasalter.net/MLADistantCodingDemo/)** - Retro-styled text editor created live at MLA
+
+---
+
 ## About This Session
 
 Scholars explore the relationship between generative AI and the future of digital humanities programming using agent-based tools. Participants will be introduced to a beginner-friendly method commonly referred to as "vibe coding," which emphasizes describing and solving problems through code rather than editing code directly, for tasks such as distant reading and digital humanities prototyping.
@@ -71,6 +79,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 - **[Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/)** - Wolfram's comprehensive benchmarking of large language models
 
 - **[Three Years from GPT-3 to Gemini](https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini)** - Ethan Mollick on the rapid evolution of AI capabilities
+
+- **[ChatGPT and Software Testing Education](https://dl.acm.org/doi/10.1007/978-3-032-12408-1_15)** - ACM research on AI in software testing pedagogy
 
 ---
 

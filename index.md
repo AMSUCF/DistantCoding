@@ -72,6 +72,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 
 - **[Three Years from GPT-3 to Gemini](https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini)** - Ethan Mollick on the rapid evolution of AI capabilities
 
+- **[ChatGPT and Software Testing Education](https://dl.acm.org/doi/10.1007/978-3-032-12408-1_15)** - ACM research on AI in software testing pedagogy
+
 ---
 
 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">

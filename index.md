@@ -32,6 +32,8 @@ This session explores agentic AI as a cultural technology reshaping digital huma
 
 - **[Agentic AI in Education Site](https://anastasiasalter.net/ClaudeEducationalDemo/)** - Educational site and text game generated with Claude Code / Sonnet 4.5 ([process documentation](https://github.com/AMSUCF/ClaudeEducationalDemo/blob/claude/init-project-011CUdfAbtzA4zFUnqcy3TAE/PROCESS.md))
 
+- **[Getting Started with Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome)** - Anthropic's official guide to using Claude as a browser extension
+
 ### Tools and Platforms
 
 - **[Claude Code](https://www.claude.com/product/claude-code)** - Anthropic's official CLI for Claude AI
